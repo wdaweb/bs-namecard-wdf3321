@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <style>
+      body {
+        height: 100%;
+        position: relative;
+      }
+      .rrow {
+        width: 100%;
+        height: auto;
+        background: url('./images/20.jpg') center/contain no-repeat;
+      }
+      .container {
+        height: 100vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container d-flex align-items-center justify-content-center">
+      <div class="card w-100">
+        <div class="row g-0 flex-sm-column flex-md-row">
+          <div class="col-md-4 d-md-flex">
+            <div class="rrow d-flex align-items-center justify-content-center"></div>
+          </div>
+          <img src="./images/77.jpg" class="d-md-none h-auto w-auto" />
+
+          <div class="col-md-6 p-5">
+            <h6>Front End Development</h6>
+            <h1 class="display-2">Say My Name</h1>
+            <p>
+              Taipei , Taiwan
+              <br />
+              Phone：0977777777
+              <br />
+              E-mail：asd123@gmail.com
+              <br />
+              Website：http://wdaweb.github.io/
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.js"></script>
+  </body>
+</html>
